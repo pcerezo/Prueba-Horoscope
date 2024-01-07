@@ -23,8 +23,8 @@ class HoroscopeViewHolder(view: View): RecyclerView.ViewHolder(view) {
         view.animate().apply {
             duration = 300
             interpolator = LinearInterpolator()
-            scaleY(1.5f)
-            scaleX(1.5f)
+            scaleY(0.8f)
+            scaleX(0.8f)
             withEndAction {
                 scaleY(1f)
                 scaleX(1f)
